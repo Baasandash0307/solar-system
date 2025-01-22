@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    background: url(./galax.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1952px;
+    height: 1025px;
+}
+  
+.orbit{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sun img{
+    height: 100px;
+    width: 100px;
+}
+
+.mercury img{
+    width: 15px;
+    height: 15px;
+    animation: ani 8s linear infinite;
+}
+@keyframes ani{
+    0%{
+        transform: rotate(0deg)
+                    translate(-16)
+                    rotate(0deg)
+        ;
+    }
+    100%{
+        transform: rotate(360deg)
+                    translate(-16)
+                    rotate(360deg)
+        ;
+    }
+}
