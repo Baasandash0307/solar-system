@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./galax.jpeg);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbit {
+  width: 900px;
+  height: 900px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit .sun img {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* neptune */
+.main {
+  width: 900px;
+  height: 900px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  animation: circle 30s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg)
+      rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg)
+      rotate(360deg);
+  }
+}
+
+.main .neptune {
+  position: absolute;
+  top: 0;
+}
+
+.main .neptune img {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+
+/* uranus */
+.dashed {
+  width: 800px;
+  height: 800px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 30s infinite;
+}
+
+.dashed .uranus {
+  position: absolute;
+  top: 0;
+}
+
+.dashed .uranus img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+
+/* saturn */
+.dashed-1 {
+  width: 700px;
+  height: 700px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 550s infinite;
+}
+
+.dashed-1 .saturn {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-1 .saturn img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+.dashed-2 {
+  width: 600px;
+  height: 600px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 40s infinite;
+  animation-timing-function: linear;
+}
+
+.dashed-2 .jupiter {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-2 .jupiter img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+.dashed-3 {
+  width: 500px;
+  height: 500px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 80s infinite;
+}
+
+.dashed-3 .mars {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-3 .mars img {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+.dashed-4 {
+  width: 400px;
+  height: 400px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 50s infinite;
+}
+
+.dashed-4 .earth {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-4 .earth img {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+  animation: orbit 1s linear infinite;
+}
+
+.dashed-5 {
+  width: 300px;
+  height: 300px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 60s infinite;
+}
+
+.dashed-5 .venus {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-5 .venus img {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.dashed-6 {
+  width: 200px;
+  height: 200px;
+  border: 1px dashed #ccc;
+  position: absolute;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 50s infinite;
+}
+
+.dashed-6 .mercury {
+  position: absolute;
+  top: 0;
+}
+
+.dashed-6 .mercury img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin: auto;
+}
+@keyframes circle {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+@keyframes orbit {
+  0%   { transform: rotate(0deg) ; left:0px; top:0px;}
+  25%  { transform: rotate(90deg) ; left:0; top:0px;}
+  50%  { transform: rotate(180deg) ; left:0; top:0px;}
+  75%  { transform: rotate(270deg) ; left:0px; top:0px;}
+  100% { transform: rotate(360deg) ; left:0px; top:0px;}
+}
+
