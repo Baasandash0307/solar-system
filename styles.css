@@ -124,7 +124,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: circle 550s infinite;
+  animation: circle 100s infinite;
 }
 
 .dashed-1 .saturn {
